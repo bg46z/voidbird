@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4488D43294D51510063A11B /* voidbirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D42294D51510063A11B /* voidbirdApp.swift */; };
+		D4488D45294D51510063A11B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D44294D51510063A11B /* ContentView.swift */; };
+		D4488D47294D51540063A11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4488D46294D51540063A11B /* Assets.xcassets */; };
+		D4488D4A294D51540063A11B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4488D49294D51540063A11B /* Preview Assets.xcassets */; };
+		D4488D4C294D51540063A11B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D4B294D51540063A11B /* Persistence.swift */; };
+		D4488D4F294D51540063A11B /* voidbird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4488D4D294D51540063A11B /* voidbird.xcdatamodeld */; };
+		D4488D5A294D51540063A11B /* voidbirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D59294D51540063A11B /* voidbirdTests.swift */; };
+		D4488D64294D51550063A11B /* voidbirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D63294D51550063A11B /* voidbirdUITests.swift */; };
+		D4488D66294D51550063A11B /* voidbirdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4488D65294D51550063A11B /* voidbirdUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4488D56294D51540063A11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4488D37294D51510063A11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4488D3E294D51510063A11B;
+			remoteInfo = voidbird;
+		};
+		D4488D60294D51550063A11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4488D37294D51510063A11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4488D3E294D51510063A11B;
+			remoteInfo = voidbird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4488D3F294D51510063A11B /* voidbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voidbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4488D42294D51510063A11B /* voidbirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voidbirdApp.swift; sourceTree = "<group>"; };
+		D4488D44294D51510063A11B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4488D46294D51540063A11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4488D49294D51540063A11B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4488D4B294D51540063A11B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D4488D4E294D51540063A11B /* voidbird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = voidbird.xcdatamodel; sourceTree = "<group>"; };
+		D4488D50294D51540063A11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4488D55294D51540063A11B /* voidbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voidbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4488D59294D51540063A11B /* voidbirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voidbirdTests.swift; sourceTree = "<group>"; };
+		D4488D5F294D51550063A11B /* voidbirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voidbirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4488D63294D51550063A11B /* voidbirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voidbirdUITests.swift; sourceTree = "<group>"; };
+		D4488D65294D51550063A11B /* voidbirdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voidbirdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4488D3C294D51510063A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D52294D51540063A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D5C294D51550063A11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4488D36294D51510063A11B = {
+			isa = PBXGroup;
+			children = (
+				D4488D41294D51510063A11B /* voidbird */,
+				D4488D58294D51540063A11B /* voidbirdTests */,
+				D4488D62294D51550063A11B /* voidbirdUITests */,
+				D4488D40294D51510063A11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4488D40294D51510063A11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4488D3F294D51510063A11B /* voidbird.app */,
+				D4488D55294D51540063A11B /* voidbirdTests.xctest */,
+				D4488D5F294D51550063A11B /* voidbirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4488D41294D51510063A11B /* voidbird */ = {
+			isa = PBXGroup;
+			children = (
+				D4488D42294D51510063A11B /* voidbirdApp.swift */,
+				D4488D44294D51510063A11B /* ContentView.swift */,
+				D4488D46294D51540063A11B /* Assets.xcassets */,
+				D4488D4B294D51540063A11B /* Persistence.swift */,
+				D4488D50294D51540063A11B /* Info.plist */,
+				D4488D4D294D51540063A11B /* voidbird.xcdatamodeld */,
+				D4488D48294D51540063A11B /* Preview Content */,
+			);
+			path = voidbird;
+			sourceTree = "<group>";
+		};
+		D4488D48294D51540063A11B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4488D49294D51540063A11B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4488D58294D51540063A11B /* voidbirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4488D59294D51540063A11B /* voidbirdTests.swift */,
+			);
+			path = voidbirdTests;
+			sourceTree = "<group>";
+		};
+		D4488D62294D51550063A11B /* voidbirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4488D63294D51550063A11B /* voidbirdUITests.swift */,
+				D4488D65294D51550063A11B /* voidbirdUITestsLaunchTests.swift */,
+			);
+			path = voidbirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4488D3E294D51510063A11B /* voidbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4488D69294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbird" */;
+			buildPhases = (
+				D4488D3B294D51510063A11B /* Sources */,
+				D4488D3C294D51510063A11B /* Frameworks */,
+				D4488D3D294D51510063A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voidbird;
+			productName = voidbird;
+			productReference = D4488D3F294D51510063A11B /* voidbird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4488D54294D51540063A11B /* voidbirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4488D6C294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbirdTests" */;
+			buildPhases = (
+				D4488D51294D51540063A11B /* Sources */,
+				D4488D52294D51540063A11B /* Frameworks */,
+				D4488D53294D51540063A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4488D57294D51540063A11B /* PBXTargetDependency */,
+			);
+			name = voidbirdTests;
+			productName = voidbirdTests;
+			productReference = D4488D55294D51540063A11B /* voidbirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4488D5E294D51550063A11B /* voidbirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4488D6F294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbirdUITests" */;
+			buildPhases = (
+				D4488D5B294D51550063A11B /* Sources */,
+				D4488D5C294D51550063A11B /* Frameworks */,
+				D4488D5D294D51550063A11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4488D61294D51550063A11B /* PBXTargetDependency */,
+			);
+			name = voidbirdUITests;
+			productName = voidbirdUITests;
+			productReference = D4488D5F294D51550063A11B /* voidbirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4488D37294D51510063A11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D4488D3E294D51510063A11B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D4488D54294D51540063A11B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4488D3E294D51510063A11B;
+					};
+					D4488D5E294D51550063A11B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D4488D3E294D51510063A11B;
+					};
+				};
+			};
+			buildConfigurationList = D4488D3A294D51510063A11B /* Build configuration list for PBXProject "voidbird" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4488D36294D51510063A11B;
+			productRefGroup = D4488D40294D51510063A11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4488D3E294D51510063A11B /* voidbird */,
+				D4488D54294D51540063A11B /* voidbirdTests */,
+				D4488D5E294D51550063A11B /* voidbirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4488D3D294D51510063A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4488D4A294D51540063A11B /* Preview Assets.xcassets in Resources */,
+				D4488D47294D51540063A11B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D53294D51540063A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D5D294D51550063A11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4488D3B294D51510063A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4488D4F294D51540063A11B /* voidbird.xcdatamodeld in Sources */,
+				D4488D4C294D51540063A11B /* Persistence.swift in Sources */,
+				D4488D45294D51510063A11B /* ContentView.swift in Sources */,
+				D4488D43294D51510063A11B /* voidbirdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D51294D51540063A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4488D5A294D51540063A11B /* voidbirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4488D5B294D51550063A11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4488D66294D51550063A11B /* voidbirdUITestsLaunchTests.swift in Sources */,
+				D4488D64294D51550063A11B /* voidbirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4488D57294D51540063A11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4488D3E294D51510063A11B /* voidbird */;
+			targetProxy = D4488D56294D51540063A11B /* PBXContainerItemProxy */;
+		};
+		D4488D61294D51550063A11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4488D3E294D51510063A11B /* voidbird */;
+			targetProxy = D4488D60294D51550063A11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4488D67294D51550063A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4488D68294D51550063A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4488D6A294D51550063A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voidbird/Preview Content\"";
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4488D6B294D51550063A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voidbird/Preview Content\"";
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4488D6D294D51550063A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voidbird.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voidbird";
+			};
+			name = Debug;
+		};
+		D4488D6E294D51550063A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voidbird.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voidbird";
+			};
+			name = Release;
+		};
+		D4488D70294D51550063A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voidbird;
+			};
+			name = Debug;
+		};
+		D4488D71294D51550063A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K724Z5TA2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbridges.voidbirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voidbird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4488D3A294D51510063A11B /* Build configuration list for PBXProject "voidbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4488D67294D51550063A11B /* Debug */,
+				D4488D68294D51550063A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4488D69294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4488D6A294D51550063A11B /* Debug */,
+				D4488D6B294D51550063A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4488D6C294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4488D6D294D51550063A11B /* Debug */,
+				D4488D6E294D51550063A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4488D6F294D51550063A11B /* Build configuration list for PBXNativeTarget "voidbirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4488D70294D51550063A11B /* Debug */,
+				D4488D71294D51550063A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4488D4D294D51540063A11B /* voidbird.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4488D4E294D51540063A11B /* voidbird.xcdatamodel */,
+			);
+			currentVersion = D4488D4E294D51540063A11B /* voidbird.xcdatamodel */;
+			path = voidbird.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4488D37294D51510063A11B /* Project object */;
+}
